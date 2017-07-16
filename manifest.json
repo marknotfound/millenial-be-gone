@@ -1,0 +1,20 @@
+{
+  "name": "Millenial-Be-Gone",
+  "version": "0.0.1",
+  "manifest_version": 2,
+  "description": "Removes millenials from your internets.",
+  "permissions": [
+    "tabs",
+    "http://*/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*/*"
+      ],
+      "js": [
+        "lib/inject.js"
+      ]
+    }
+  ]
+}

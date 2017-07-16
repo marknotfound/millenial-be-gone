@@ -1,0 +1,17 @@
+{
+  "name": "kids-these-days",
+  "version": "1.0.0",
+  "description": "Shitty writing made better by shittily swapping shitty words for less shitty phrases",
+  "main": "inject.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d lib",
+    "watch": "babel src --watch -d lib"
+  },
+  "author": "Mark Dunphy",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.6.0"
+  }
+}
